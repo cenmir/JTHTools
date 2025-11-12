@@ -65,3 +65,12 @@ Large matrices automatically truncate with ellipsis notation:
 ## Why the Wrapper?
 
 NumPy's `ndarray` is a C-defined immutable type that cannot have display methods added at runtime. Marimo also doesn't provide a public API for registering formatters for third-party types. The pipe syntax `| la` is the cleanest solution for opt-in LaTeX rendering.
+
+
+## Development
+
+This allows editing the source code and have the changes immediately reflected in the environment, which is perfect for development.   
+
+```
+uv pip install -e ./JTHTools
+```
